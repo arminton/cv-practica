@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/solid.min.css" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="layout__left">
+        <header class="main-header">
+          <img id="dev-img" class="main-header__img" alt="" />
+
+          <h1 class="main-header__title">
+            <strong id="dev-name"></strong>
+            <span class="main-header__job">Web Developer</span>
+          </h1>
+        </header>
+
+        <div class="info-container">
+          <section>
+            <h2 class="info-title">Contact Info</h2>
+
+            <address class="contact-info">
+              <span class="contact-info__item info"
+                ><i
+                  class="fa-solid fa-mobile-screen contact-info__icon"
+                ></i> </span
+              ><span class="contact-info__item info"
+                ><i class="fa-solid fa-phone contact-info__icon"></i></span
+              ><span class="contact-info__item info"
+                ><i class="fa-solid fa-envelope contact-info__icon"></i></span
+              ><span class="contact-info__item info"
+                ><i class="fa-solid fa-location-dot contact-info__icon"></i
+              ></span>
+            </address>
+          </section>
+
+          <section>
+            <h2 class="info-title">Education</h2>
+
+            <div class="education-info">
+              <p class="education-info__item">
+                <span class="education-info__label">2012 - 2014</span
+                ><span><strong>Master degree in Computer Science</strong></span
+                ><span>University name</span>
+              </p>
+              <p class="education-info__item">
+                <span class="education-info__label">2009 - 2011</span
+                ><span
+                  ><strong>Bachelor degree in Computer Science</strong></span
+                ><span>University name</span>
+              </p>
+              <p class="education-info__item">
+                <span class="education-info__label">2003 - 2008</span
+                ><span><strong>Matriculation</strong></span
+                ><span>University name</span>
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 class="info-title">Languages</h2>
+
+            <ul class="fa-ul spoken-languages">
+              <li>
+                <span class="fa-li"
+                  ><i class="fa-solid fa-check spoken-languages__icon"></i
+                ></span>
+                Spanish
+              </li>
+              <li>
+                <span class="fa-li"
+                  ><i class="fa-solid fa-check spoken-languages__icon"></i
+                ></span>
+                English
+              </li>
+              <li>
+                <span class="fa-li"
+                  ><i class="fa-solid fa-check spoken-languages__icon"></i
+                ></span>
+                Portuguese
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+      <div class="layout__right">
+        <section>
+          <h2 class="section-title">About Me</h2>
+
+          <div class="section-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              quaerat sint iure iusto at quidem porro odio praesentium, odit
+              deserunt a dicta dolorum impedit veritatis quo omnis labore
+              tempore officiis.
+            </p>
+            <p>
+              Dolor exercitationem neque accusantium nihil harum magni maiores
+              recusandae veniam sit? Esse fugiat voluptas temporibus dignissimos
+              expedita repellendus voluptatum illo ipsa deleniti!
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2 class="section-title">Experience</h2>
+
+          <div class="section-grid">
+            <h3 class="section-grid__title">
+              <span>2019 - present</span>
+              <span class="section-grid__company">Company name</span>
+            </h3>
+            <div class="section-grid__text">
+              <p class="section-grid__lead">Senior UX Designer</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur atque laboriosam cum itaque dolor blanditiis,
+                ratione quisquam dignissimos maiores reprehenderit perferendis
+                inventore natus perspiciatis saepe facere praesentium sit
+                voluptates magnam!
+              </p>
+            </div>
+
+            <h3 class="section-grid__title">
+              <span>2016 - 2019</span>
+              <span class="section-grid__company">Company name</span>
+            </h3>
+            <div class="section-grid__text">
+              <p class="section-grid__lead">UX/UI Designer</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur atque laboriosam cum itaque dolor blanditiis,
+                ratione quisquam dignissimos maiores reprehend erit perferendis
+                inventore natus perspiciatis saepe facere praesentium sit
+                voluptates magnam!
+              </p>
+            </div>
+
+            <h3 class="section-grid__title">
+              <span>2014 - 2016</span>
+              <span class="section-grid__company">Company name</span>
+            </h3>
+            <div class="section-grid__text">
+              <p class="section-grid__lead">Junior UX Designer</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur atque laboriosam cum itaque dolor blanditiis,
+                ratione quisquam dignissimos maiores reprehenderit perferendis
+                inventore natus perspiciatis saepe facere praesentium sit
+                voluptates magnam!
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 class="section-title">Skills</h2>
+
+          <div class="section-skills">
+            <div class="section-skills__skill">
+              <label for="html" class="section-skills__label">HTML</label>
+              <meter
+                id="html"
+                class="section-skills__percent"
+                max="100"
+                value="85"
+              ></meter>
+            </div>
+
+            <div class="section-skills__skill">
+              <label for="css" class="section-skills__label">CSS</label>
+              <meter
+                id="css"
+                class="section-skills__percent"
+                max="100"
+                value="80"
+              ></meter>
+            </div>
+
+            <div class="section-skills__skill">
+              <label for="javascript" class="section-skills__label"
+                >JavaScript</label
+              >
+              <meter
+                id="javascript"
+                class="section-skills__percent"
+                max="100"
+                value="90"
+              ></meter>
+            </div>
+
+            <div class="section-skills__skill">
+              <label for="react" class="section-skills__label">React</label>
+              <meter
+                id="react"
+                class="section-skills__percent"
+                max="100"
+                value="80"
+              ></meter>
+            </div>
+
+            <div class="section-skills__skill">
+              <label for="node" class="section-skills__label">Node</label>
+              <meter
+                id="node"
+                class="section-skills__percent"
+                max="100"
+                value="90"
+              ></meter>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
